@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		995815E82B7F2650000D0E20 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995815E72B7F2650000D0E20 /* CircleView.swift */; };
+		995815EA2B7F28B4000D0E20 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995815E92B7F28B4000D0E20 /* MapView.swift */; };
 		9995F07E2B7CB120007D1105 /* SwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995F07D2B7CB120007D1105 /* SwiftUITutorialApp.swift */; };
 		9995F0802B7CB120007D1105 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9995F07F2B7CB120007D1105 /* ContentView.swift */; };
 		9995F0822B7CB123007D1105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9995F0812B7CB123007D1105 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		995815E72B7F2650000D0E20 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		995815E92B7F28B4000D0E20 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		9995F07A2B7CB120007D1105 /* SwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9995F07D2B7CB120007D1105 /* SwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		9995F07F2B7CB120007D1105 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				9995F07D2B7CB120007D1105 /* SwiftUITutorialApp.swift */,
 				9995F07F2B7CB120007D1105 /* ContentView.swift */,
+				995815E72B7F2650000D0E20 /* CircleView.swift */,
+				995815E92B7F28B4000D0E20 /* MapView.swift */,
 				9995F0812B7CB123007D1105 /* Assets.xcassets */,
 				9995F0832B7CB123007D1105 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995815E82B7F2650000D0E20 /* CircleView.swift in Sources */,
+				995815EA2B7F28B4000D0E20 /* MapView.swift in Sources */,
 				9995F0802B7CB120007D1105 /* ContentView.swift in Sources */,
 				9995F07E2B7CB120007D1105 /* SwiftUITutorialApp.swift in Sources */,
 			);
@@ -422,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PR34PV3LV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PR34PV3LV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
