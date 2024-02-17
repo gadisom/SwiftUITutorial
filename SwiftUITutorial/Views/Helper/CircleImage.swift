@@ -7,14 +7,19 @@
 
 import SwiftUI
 
-struct CircleView: View {
-    var body: some View { Image("turtlerock")  .clipShape(Circle()) // 모양 변경
+struct CircleImage: View {
+    var image: Image
+    
+    var body: some View {
+        image
+            .clipShape(Circle()) // 모양 변경
             .overlay{
                 Circle().stroke(.gray, lineWidth: 4)}
             .shadow(radius:7)
-        }
+    }
+    
+}
+#Preview {
+    CircleImage(image: Image("turtlerock"))
 }
 
-#Preview {
-    CircleView()
-}
