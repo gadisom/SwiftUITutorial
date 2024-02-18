@@ -23,6 +23,11 @@
 		FFD4BC7E2B80B4F6008F83F1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4BC7D2B80B4F6008F83F1 /* CircleImage.swift */; };
 		FFD4BC802B80B503008F83F1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4BC7F2B80B503008F83F1 /* MapView.swift */; };
 		FFD4BC822B80E3CE008F83F1 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4BC812B80E3CE008F83F1 /* FavoriteButton.swift */; };
+		FFD4BC882B80EEB1008F83F1 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4BC872B80EEB1008F83F1 /* HexagonParameters.swift */; };
+		FFD4BC8A2B80F124008F83F1 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4BC892B80F124008F83F1 /* BadgeBackground.swift */; };
+		FFD4BC8C2B80F629008F83F1 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4BC8B2B80F629008F83F1 /* BadgeSymbol.swift */; };
+		FFD4BC8E2B80F6AE008F83F1 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4BC8D2B80F6AE008F83F1 /* RotatedBadgeSymbol.swift */; };
+		FFD4BC902B80F7ED008F83F1 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4BC8F2B80F7ED008F83F1 /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +67,11 @@
 		FFD4BC7D2B80B4F6008F83F1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		FFD4BC7F2B80B503008F83F1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FFD4BC812B80E3CE008F83F1 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		FFD4BC872B80EEB1008F83F1 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		FFD4BC892B80F124008F83F1 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		FFD4BC8B2B80F629008F83F1 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		FFD4BC8D2B80F6AE008F83F1 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		FFD4BC8F2B80F7ED008F83F1 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				9995F07D2B7CB120007D1105 /* SwiftUITutorialApp.swift */,
-				FFD4BC6E2B809F2A008F83F1 /* Resources */,
-				FFD4BC6D2B809F09008F83F1 /* Model */,
-				FFD4BC6C2B809E8E008F83F1 /* Views */,
+				FFD4BC852B80EE17008F83F1 /* SwiftUIEssential */,
 				9995F0812B7CB123007D1105 /* Assets.xcassets */,
 				9995F0832B7CB123007D1105 /* Preview Content */,
 			);
@@ -151,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				FFD4BC7B2B80B3E2008F83F1 /* ContentView.swift */,
+				FFD4BC862B80EE40008F83F1 /* Badges */,
 				FFD4BC832B80E43E008F83F1 /* Landmarks */,
 				FFD4BC842B80E446008F83F1 /* Helper */,
 			);
@@ -171,7 +180,7 @@
 			children = (
 				FFD4BC752B80A721008F83F1 /* landmarkData.json */,
 			);
-			path = Resources;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		FFD4BC832B80E43E008F83F1 /* Landmarks */ = {
@@ -192,6 +201,29 @@
 				FFD4BC7D2B80B4F6008F83F1 /* CircleImage.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		FFD4BC852B80EE17008F83F1 /* SwiftUIEssential */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4BC6E2B809F2A008F83F1 /* Resources */,
+				FFD4BC6D2B809F09008F83F1 /* Model */,
+				FFD4BC6C2B809E8E008F83F1 /* Views */,
+			);
+			name = SwiftUIEssential;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FFD4BC862B80EE40008F83F1 /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4BC872B80EEB1008F83F1 /* HexagonParameters.swift */,
+				FFD4BC8B2B80F629008F83F1 /* BadgeSymbol.swift */,
+				FFD4BC892B80F124008F83F1 /* BadgeBackground.swift */,
+				FFD4BC8D2B80F6AE008F83F1 /* RotatedBadgeSymbol.swift */,
+				FFD4BC8F2B80F7ED008F83F1 /* Badge.swift */,
+			);
+			path = Badges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,11 +358,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFD4BC782B80AA5D008F83F1 /* LandmarkList.swift in Sources */,
+				FFD4BC902B80F7ED008F83F1 /* Badge.swift in Sources */,
 				FFD4BC7A2B80AF35008F83F1 /* LandmarkDetail.swift in Sources */,
 				9995F07E2B7CB120007D1105 /* SwiftUITutorialApp.swift in Sources */,
 				FFD4BC822B80E3CE008F83F1 /* FavoriteButton.swift in Sources */,
+				FFD4BC882B80EEB1008F83F1 /* HexagonParameters.swift in Sources */,
+				FFD4BC8E2B80F6AE008F83F1 /* RotatedBadgeSymbol.swift in Sources */,
+				FFD4BC8C2B80F629008F83F1 /* BadgeSymbol.swift in Sources */,
 				FFD4BC7C2B80B3E2008F83F1 /* ContentView.swift in Sources */,
 				FFD4BC7E2B80B4F6008F83F1 /* CircleImage.swift in Sources */,
+				FFD4BC8A2B80F124008F83F1 /* BadgeBackground.swift in Sources */,
 				FFD4BC692B8093A9008F83F1 /* Landmark.swift in Sources */,
 				FFD4BC722B80A24F008F83F1 /* LandmarkRow.swift in Sources */,
 				FFD4BC802B80B503008F83F1 /* MapView.swift in Sources */,
